@@ -13,3 +13,5 @@ jobs:
         uses: yannickvr/aws-profile-oidc-action@6
         with:
           aws-profile-source: 'file.aws'
+          actions-id-token-request-token: $ACTIONS_ID_TOKEN_REQUEST_TOKEN
+          actions-id-token-request-url: $ACTIONS_ID_TOKEN_REQUEST_URL
