@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: yannickvr/aws-profile-oidc-action@6
+        uses: yannickvr/aws-profile-oidc-action@7
         with:
           aws-profile-source: 'file.aws'
           actions-id-token-request-token: $ACTIONS_ID_TOKEN_REQUEST_TOKEN
