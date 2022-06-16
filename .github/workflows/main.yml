@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: yannickvr/aws-profile-oidc-action@v1
+        uses: yannickvr/aws-profile-oidc-action@1
         with:
           aws-profile-source: 'file.aws'
